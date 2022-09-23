@@ -5,7 +5,7 @@
         static void Main()
         {
             // Calls the example code
-            Examples.Run();
+           // Examples.Run();
 
             // Calls the exercises code
             Exercises.Run();

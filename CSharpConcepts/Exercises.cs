@@ -31,12 +31,28 @@ namespace CSharpConcepts
             //SelectionExercises.DiceRoll();
             //Console.WriteLine(SelectionExercises.Angle(71));
             //Console.WriteLine(SelectionExercises.RPS("Rock"));
-            Console.WriteLine(SelectionExercises.Triangle(90, 9, 9));
+            //Console.WriteLine(SelectionExercises.Triangle(90, 9, 9));
+            
         }
 
         private static void CallSelectionExercises()
         {
             // Add your calling code here for the selection questions
+
+            //List<string> Users = new() {"Kevin", "Tony", "Rahul"};
+            //Console.WriteLine(IterationExercises.UserNames(Users));
+            //List<int> ints = new() { 1, 2, 3, 4, 5 , -2};
+            //Console.WriteLine(IterationExercises.BattingAverage(ints));
+            //Console.WriteLine(IterationExercises.CalculateMultiples(10, 9));
+            //Console.WriteLine(IterationExercises.IsPrime(434));
+            //IterationExercises.Stars(6);
+            //List<List<char>> board = new()
+            //{
+            //new() { 'X', '0', 'X' },
+            //new() { '0', 'X', '0' },
+            //new() { 'X', '0', '0' }
+            //};
+            //Console.WriteLine(IterationExercises.NAC(board));
         }
     }
 }
