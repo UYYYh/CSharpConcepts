@@ -97,37 +97,45 @@ namespace CSharpConcepts.Classes.Exercises
         // Write a procedure to output a star pattern based on the number of stars input
         // So for example if the user enters 6 then it will output:
 
-        public static void Stars(int star)
+        *
+        **
+        ***
+        ****
+        *****
+        ******
+        *****
+        ****
+        ***
+        **
+        *
+
+        public static List<string> Stars(int star)
         {
+            List<string> Output = new() { };
             for (int i=0; i < star; i++)
             {
                 for (int j = 0; j < i; j++)
                 {
-                    Console.Write("*");
+                    Output.Add("*");
                 }
-                Console.WriteLine("");
+                Output.Add("");
             }
             for (int i = star; i > 0; i--)
             {
                 for (int j = 0; j < i; j++)
                 {
-                    Console.Write("*");
+                    Output.Add("*");
                 }
-                Console.WriteLine("");
+                Output.Add("");
             }
+            foreach (string stars in Output)
+            {
+
+            }
+            return Output;
         }
 
-        //*
-        //**
-        //***
-        //****
-        //*****
-        //******
-        //*****
-        //****
-        //***
-        //**
-        //*
+        
 
         // Q7: This function should take a noughts and crosses board represented as an character list,
         // A space represents an empty space as shown below.

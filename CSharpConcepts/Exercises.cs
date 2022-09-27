@@ -41,8 +41,8 @@ namespace CSharpConcepts
 
             //List<string> Users = new() {"Kevin", "Tony", "Rahul"};
             //Console.WriteLine(IterationExercises.UserNames(Users));
-            //List<int> ints = new() { 1, 2, 3, 4, 5 , -2};
-            //Console.WriteLine(IterationExercises.BattingAverage(ints));
+            List<int> ints = new() { 1, 2, 3, 4, 5 , -2};
+            Console.WriteLine(IterationExercises.BattingAverage(ints));
             //Console.WriteLine(IterationExercises.CalculateMultiples(10, 9));
             //Console.WriteLine(IterationExercises.IsPrime(434));
             //IterationExercises.Stars(6);
