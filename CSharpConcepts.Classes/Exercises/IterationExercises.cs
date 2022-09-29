@@ -97,17 +97,7 @@ namespace CSharpConcepts.Classes.Exercises
         // Write a procedure to output a star pattern based on the number of stars input
         // So for example if the user enters 6 then it will output:
 
-        *
-        **
-        ***
-        ****
-        *****
-        ******
-        *****
-        ****
-        ***
-        **
-        *
+        
 
         public static List<string> Stars(int star)
         {
